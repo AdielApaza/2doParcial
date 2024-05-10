@@ -1,0 +1,22 @@
+.contenedor
+{
+    background-color: var(--DarkGrey);
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    align-items:center;
+    width: 340px;
+    height: 180px;
+    border-radius: 10px;  
+    justify-content:space-around;
+    margin: 30px;
+}
+
+
+.nav-link
+{
+  text-decoration: none;
+}
+
+
+ 
