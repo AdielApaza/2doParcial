@@ -1,18 +1,44 @@
-.contenedor
+.superior
 {
-    background-color: var(--DarkGrey);
+    background-color: #414865;
     display: flex;
     flex-direction: row;
     justify-content:center;
     align-items:center;
-    width: 340px;
-    height: 180px;
-    border-radius: 10px;  
-    justify-content:space-around;
-    margin: 30px;
+    width: 144px;
+    height: 186px;
+    border-top-right-radius: 50%;
+    border-bottom-left-radius: 50%;
+    border-top-left-radius: 10%;
+    border-bottom-right-radius: 10%;
+    
 }
 
-
+.componente1
+{
+    background-color: white ;
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    align-items:center;
+    width: 144px;
+    height: 100px;
+    border-bottom-left-radius: 50%;
+}
+.componente2
+{
+  font-family: "open sans-serif";
+  color: white;
+  font-size: 14px;
+}
+.button{
+  background-color: white;
+  border: none;
+  color: white;
+  cursor: pointer;
+  border-radius: 100%px;
+  left: 65%;
+}
 .nav-link
 {
   text-decoration: none;
