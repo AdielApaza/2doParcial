@@ -11,15 +11,15 @@ const Card = () => {
       </div>
       <div className="componente2">
         <p>
-          <h5>Terapia 2</h5>
+          <h5 className= "title">Terapia 2</h5>
         </p>
         <p>
-          <h5>Ejercicios Pelvicos</h5>
+          <h5 className = "subtitle">Ejercicios Pelvicos</h5>
         </p>
       </div>
-      <div className="componente3">
+      <div class="componente3">
         <button>
-          <h1>3</h1>
+          <div class="botn"> </div>
         </button>
       </div>
       </div>

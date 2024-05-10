@@ -1,54 +1,72 @@
-.superior
-{
-    background-color: #414865;
-    display: flex;
-    flex-direction: row;
-    justify-content:center;
-    align-items:center;
-    width: 144px;
-    height: 186px;
-    border-top-right-radius: 50%;
-    border-bottom-left-radius: 50%;
-    border-top-left-radius: 10%;
-    border-bottom-right-radius: 10%;
-    
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
 }
 
-.componente1
-{
-    background-color: white ;
-    display: flex;
-    flex-direction: row;
-    justify-content:center;
-    align-items:center;
-    width: 144px;
-    height: 100px;
-    border-top-right-radius: 50%;
-    border-bottom-left-radius: 50%;
-    border-top-left-radius: 10%;
-    border-bottom-right-radius: 10%;
-
-
-    
+.superior{
+  width: 144px;
+  height: 186px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  border: 1px solid #3C4158;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 40px;
+  border-bottom-left-radius: 40px;
+  border-bottom-right-radius: 10px;
+  background-color:  #3C4158;
 }
-.componente2
-{
-  font-family: "open sans-serif";
-  color: white;
-  font-size: 14px;
-}
-.button{
-  background-color: white;
-  border: none;
-  color: white;
-  cursor: pointer;
-  border-radius: 100%px;
-  left: 65%;
-}
-.nav-link
-{
-  text-decoration: none;
+.componente1{
+  display: flex;
+  width: 208px;
+  height: 140px;
+  margin: 0 auto;
+  padding: 2rem;
+  margin-left: -64px;
+  margin-top: -64px;
+  border-top-left-radius: 40px;
+  border-top-right-radius: 72px;
+  border-bottom-left-radius: 50px;
+  border-bottom-right-radius: 40px;
 }
 
-
+.componente3{
+  width: 0.02mm;
+  height: 0.02mm;
+  border-radius: 50%;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  border: 1px solid #ffffff;
+  position: absolute;
+  top: 180px;
+  left: 245px;
+  background-color: #ffffff;
  
+}
+.botn {
+  width: 0px;
+  height: 0px;
+  border-left: 15px solid transparent;
+  border-right: 15px solid transparent;
+  border-bottom: 20px solid #3C4158;
+  transform: rotate(90deg);
+  margin-top:-10px;
+  margin-left:-11px;
+}
+
+.title{
+  color:#ffffff;
+  margin-left: -70px;
+  margin-top: -15px;
+  font-size: 20px;
+}
+
+.subtitle{
+  color:#ffffff;
+  margin-left: -10px;
+  margin-top: -15px;
+  font-size: 17px;
+}
